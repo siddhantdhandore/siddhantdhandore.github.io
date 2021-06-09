@@ -392,9 +392,28 @@ PROJECTS
 	background: var(--color-secondary-accent);
 	margin-bottom: 20px;
 }
+ .download-button{
+	text-decoration: none;
+	border-radius: 5px;
+	padding:5px;
+	display: block;
+	width: 250px;
+	color:var(--color-primary-accent);
+	background-color: var(--color-red);
+	margin:0 auto;
+	font-weight: 800;
+	text-align: center;
+}
+.download-button:hover{
+	background-color: #FB1010;
+	color: white;
+
+}
 #project .container{
+
 	padding-bottom: 30px;
 }
+
 
 #project-parallax{
 	min-height: 400px;

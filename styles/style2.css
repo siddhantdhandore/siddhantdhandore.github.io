@@ -3,12 +3,40 @@
 	margin:0;
 	padding: 0;
 }
-
-.demo{
-	background: url('construction.jpg');
-	background-size: cover;
-	width:100%;
-	border:1px solid yellow;
+.parallax{
+	overflow: hidden;
 	height:300px;
+	background-image: url('flat-interior.jpg');
 	background-repeat: no-repeat;
+	background-size: cover;
+	background-position: center;
+	background-attachment: fixed;
+	display: flex;
+	
+}
+.content{
+	width:50%;
+	background-color:rgba(100,100,255);
+	height:inherit;
+	position: relative;
+	z-index: 2;
+}
+.strip{
+	z-index: 1;
+	width:200px;
+	height:inherit;
+	background-color: rgba(100,100,255);
+	transform: rotate(-15deg) translateX(-150px) scaleY(1.2);
+}
+.container{
+	padding:0 20px;
+	margin-left: auto;
+	max-width:550px;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+	height: inherit;
+
+
 }

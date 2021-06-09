@@ -35,7 +35,7 @@ header{
 	background:var(--color-black);	
 	z-index: 1;
 }
-#header-contact{
+#header-other{
 	position: sticky;
 	top:0;
 	left:0;
@@ -374,4 +374,53 @@ form  div{
 	grid-template-columns: 1fr;
 	}
 
+}
+
+
+
+
+
+
+/*
+PROJECTS
+*/
+#project-parallax{
+	min-height: 400px;
+	background-image: url('../images/flat-interior.jpg');
+	background-repeat: no-repeat;
+	background-size:  cover;
+	background-position: center;
+	background-attachment: fixed;
+	display: flex;
+	overflow: hidden;
+}
+#project-parallax #container{
+	max-width: 550px;
+	margin-left: auto;
+	padding: 0 20px;
+	min-height: 400px;
+	display: flex;
+	flex-direction: column;
+	flex-wrap: wrap;
+	justify-content: space-around;
+	
+}
+.content{
+	width:50%;
+	max-height:400px;
+	background-color: var(--color-blue);
+	color:var(--color-primary-accent);
+	z-index: 2;
+}
+.strip{
+	background-color: var(--color-blue);
+	max-height:inherit;
+	width:100px;
+	transform: rotate(-15deg) translateX(-50px) scaleY(1.2);
+}
+.content h2{
+	font-size: 26px;
+}
+.content p{
+	font-size: 12px;
 }

@@ -42,7 +42,7 @@ header{
 	right:0;
 	overflow: hidden;
 	background:var(--color-black);	
-	z-index: 1;
+	z-index: 10;
 }
 .header-flex{
 	display: flex;
@@ -440,7 +440,7 @@ PROJECTS
 	max-height:400px;
 	background-color: var(--color-blue);
 	color:var(--color-primary-accent);
-	z-index: 2;
+	z-index: 1;
 }
 .strip{
 	background-color: var(--color-blue);

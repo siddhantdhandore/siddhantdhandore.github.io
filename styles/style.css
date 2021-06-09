@@ -442,6 +442,7 @@ PROJECTS
 	#project-parallax .content{
 		width: 100%;
 		min-height:200px;
+		text-align: center;
 	}
 	#project-parallax .content h2{
 		font-size: 20px;

@@ -384,6 +384,18 @@ form  div{
 /*
 PROJECTS
 */
+#project-title{
+	text-align: center;
+	font-size: 24px;
+	padding: 5px;
+	color: var(--color-primary-accent);
+	background: var(--color-secondary-accent);
+	margin-bottom: 20px;
+}
+#project .container{
+	padding-bottom: 30px;
+}
+
 #project-parallax{
 	min-height: 400px;
 	background-image: url('../images/flat-interior.jpg');
@@ -429,6 +441,10 @@ PROJECTS
 	/*
 	remove parallax effect
 	\*/
+	#project-title{
+		font-size: 16px;
+		padding: 2px;
+	}
 	#project-parallax{
 		display: block;
 		background-color: red;
@@ -437,7 +453,7 @@ PROJECTS
 	}
 	#project-parallax #container{
 		width:100%;
-		margin-left: 0;
+		margin:0 auto;
 	}
 	#project-parallax .content{
 		width: 100%;
@@ -446,5 +462,8 @@ PROJECTS
 	}
 	#project-parallax .content h2{
 		font-size: 20px;
+	}
+	.strip{
+		display: none;
 	}
 }

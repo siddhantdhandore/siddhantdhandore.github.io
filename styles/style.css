@@ -400,7 +400,6 @@ PROJECTS
 	width: 250px;
 	color:var(--color-primary-accent);
 	background-color: var(--color-red);
-	margin:0 auto;
 	font-weight: 800;
 	text-align: center;
 }
@@ -460,6 +459,9 @@ PROJECTS
 	/*
 	remove parallax effect
 	\*/
+	.download-button{
+		margin:0 auto;
+	}
 	#project-title{
 		font-size: 16px;
 		padding: 2px;

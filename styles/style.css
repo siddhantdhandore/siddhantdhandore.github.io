@@ -416,11 +416,34 @@ PROJECTS
 	background-color: var(--color-blue);
 	max-height:inherit;
 	width:100px;
-	transform: rotate(-15deg) translateX(-50px) scaleY(1.2);
+	transform: rotate(-13deg) translateX(-50px) scaleY(1.2);
 }
 .content h2{
 	font-size: 26px;
 }
 .content p{
 	font-size: 12px;
+}
+
+@media(max-width: 700px){
+	/*
+	remove parallax effect
+	\*/
+	#project-parallax{
+		display: block;
+		background-color: red;
+		background-blend-mode: multiply;
+		min-height: 200px;
+	}
+	#project-parallax #container{
+		width:100%;
+		margin-left: 0;
+	}
+	#project-parallax .content{
+		width: 100%;
+		min-height:200px;
+	}
+	#project-parallax .content h2{
+		font-size: 20px;
+	}
 }
